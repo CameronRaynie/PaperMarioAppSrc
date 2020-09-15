@@ -1,0 +1,682 @@
+[
+   {
+    "name": "All or Nothing",
+    "type": "Buff",
+    "equipCost": "4",
+    "fpUsed": "0",
+    "description": "Perfect action commands give +1 damage, miss the action command and the attack does nothing.",
+    "image": "Allornothing.gif"
+   },
+   {
+    "name": "Attack FX B",
+    "type": "Other",
+    "equipCost": "0",
+    "fpUsed": "0",
+    "description": "Change attack sfx to a mouse squeak.",
+    "image": "Attackfxb.gif"
+   },
+   {
+    "name": "Attack FX G",
+    "type": "Other",
+    "equipCost": "0",
+    "fpUsed": "0",
+    "description": "Change attack sfx to a giggle.",
+    "image": "Attackfxg.gif"
+   },
+   {
+    "name": "Attack FX P",
+    "type": "Other",
+    "equipCost": "0",
+    "fpUsed": "0",
+    "description": "Change attack sfx to Bowser's roar.",
+    "image": "Attackfxp.gif"
+   },
+   {
+    "name": "Attack FX R",
+    "type": "Other",
+    "equipCost": "0",
+    "fpUsed": "0",
+    "description": "Change attack sfx to crickets chirping.",
+    "image": "Attackfxr.gif"
+   },
+   {
+    "name": "Attack FX Y",
+    "type": "Other",
+    "equipCost": "0",
+    "fpUsed": "0",
+    "description": "Change attack sfx to a bell.",
+    "image": "Attackfxy.gif"
+   },
+   {
+    "name": "Bump Attack",
+    "type": "Other",
+    "equipCost": "5",
+    "fpUsed": "0",
+    "description": "Defeat weak enemies by bumping into them.",
+    "image": "Bumpattack.gif"
+   },
+   {
+    "name": "Charge",
+    "type": "Buff",
+    "equipCost": "1",
+    "fpUsed": "1",
+    "description": "Allows use of Charge command, which raises next attack by +2 damage.",
+    "image": "Charge.gif"
+   },
+   {
+    "name": "Charge P",
+    "type": "Partner",
+    "equipCost": "1",
+    "fpUsed": "1",
+    "description": "Allows parter to use Charge command, which raises next attack by +2 damage.",
+    "image": "Chargep.gif"
+   },
+   {
+    "name": "Chill Out",
+    "type": "Other",
+    "equipCost": "1",
+    "fpUsed": "0",
+    "description": "Prevents enemies from making First Strikes.",
+    "image": "Chillout.gif"
+   },
+   {
+    "name": "Close Call",
+    "type": "Buff",
+    "equipCost": "1",
+    "fpUsed": "0",
+    "description": "When Mario is in Danger (>=5 HP) enemy attacks sometimes miss.",
+    "image": "Closecall.gif"
+   },
+   {
+    "name": "Close Call P",
+    "type": "Partner",
+    "equipCost": "1",
+    "fpUsed": "0",
+    "description": "When Partner is in Danger (>=5 HP enemy attacks sometimes miss.",
+    "image": "Closecallp.gif"
+   },
+   {
+    "name": "Damage Dodge",
+    "type": "Buff",
+    "equipCost": "2",
+    "fpUsed": "0",
+    "description": "Mario's guard action command reduces damage by another 1 point.",
+    "image": "Damagedodge.gif"
+   },
+   {
+    "name": "Damage Dodge P",
+    "type": "Partner",
+    "equipCost": "2",
+    "fpUsed": "0",
+    "description": "Partner's guard action command reduces damage by another 1 point.",
+    "image": "Damagedodgep.gif"
+   },
+   {
+    "name": "Defend Plus",
+    "type": "Buff",
+    "equipCost": "5",
+    "fpUsed": "0",
+    "description": "Increases Mario's natural defense by 1",
+    "image": "Defendplus.gif"
+   },
+   {
+    "name": "Defend Plus P",
+    "type": "Partner",
+    "equipCost": "5",
+    "fpUsed": "0",
+    "description": "Increase Partner's natural defense by 1",
+    "image": "Defendplusp.gif"
+   },
+   {
+    "name": "Double Dip",
+    "type": "Buff",
+    "equipCost": "3",
+    "fpUsed": "4",
+    "description": "Allows use of two items per turn. Two copies allow Triple Dip for 8 FP.",
+    "image": "Doubledip.gif"
+   },
+   {
+    "name": "Double Dip P",
+    "type": "Partner",
+    "equipCost": "3",
+    "fpUsed": "4",
+    "description": "Allows parter to use two items per turn.",
+    "image": "Doubledipp.gif"
+   },
+   {
+    "name": "Double Pain",
+    "type": "Other",
+    "equipCost": "0",
+    "fpUsed": "0",
+    "description": "Mario takes double damage.",
+    "image": "DoublePain.gif"
+   },
+   {
+    "name": "Feeling Fine",
+    "type": "Buff",
+    "equipCost": "4",
+    "fpUsed": "0",
+    "description": "Protects Mario from most status effects.",
+    "image": "Feelingfine.gif"
+   },
+   {
+    "name": "Feeling Fine P",
+    "type": "Partner",
+    "equipCost": "4",
+    "fpUsed": "0",
+    "description": "Protects Partner from most status effects.",
+    "image": "Feelingfinep.gif"
+   },
+   {
+    "name": "Fire Drive",
+    "type": "Hammer",
+    "equipCost": "3",
+    "fpUsed": "5",
+    "description": "Hammer attack that burns all ground based enemies.",
+    "image": "Firedrive.gif"
+   },
+   {
+    "name": "First Attack",
+    "type": "Other",
+    "equipCost": "1",
+    "fpUsed": "0",
+    "description": "Defeat weak enemies by hitting them with a First Strike.",
+    "image": "Firstattack.gif"
+   },
+   {
+    "name": "Flower Finder",
+    "type": "Other",
+    "equipCost": "3",
+    "fpUsed": "0",
+    "description": "Increase chance that Flower points will drop after battle.",
+    "image": "Flowerfinder.gif"
+   },
+   {
+    "name": "Flower Saver",
+    "type": "Buff",
+    "equipCost": "4",
+    "fpUsed": "0",
+    "description": "Reduce cost of Mario's attacks by 1 FP (to a minimum of 1)",
+    "image": "Flowersaver.gif"
+   },
+   {
+    "name": "Flower Saver P",
+    "type": "Partner",
+    "equipCost": "4",
+    "fpUsed": "0",
+    "description": "Reduce cost of Partner's attacks by 1 FP (to a minimum of 1)",
+    "image": "Flowersaverp.gif"
+   },
+   {
+    "name": "FP Drain",
+    "type": "Buff",
+    "equipCost": "1",
+    "fpUsed": "0",
+    "description": "Reduce Mario's attack power by 1, but gain FP every time he hits an enemy",
+    "image": "Fpdrain.gif"
+   },
+   {
+    "name": "FP Plus",
+    "type": "Buff",
+    "equipCost": "3",
+    "fpUsed": "0",
+    "description": "Increase Maximum FP by 5",
+    "image": "Fpplus.gif"
+   },
+   {
+    "name": "Hammer Throw",
+    "type": "Hammer",
+    "equipCost": "1",
+    "fpUsed": "2",
+    "description": "Throw Hammer at any enemy, this attack ignores enemy positioning.",
+    "image": "Hammerthrow.gif"
+   },
+   {
+    "name": "Hammerman",
+    "type": "Buff",
+    "equipCost": "2",
+    "fpUsed": "0",
+    "description": "Boost Hammer attacks by +1 but disable Jump attacks.",
+    "image": "Hammerman.gif"
+   },
+   {
+    "name": "Happy Flower",
+    "type": "Buff",
+    "equipCost": "2",
+    "fpUsed": "0",
+    "description": "Slowly Regenerate FP while in battle.",
+    "image": "Happyflower.gif"
+   },
+   {
+    "name": "Happy Heart",
+    "type": "Buff",
+    "equipCost": "2",
+    "fpUsed": "0",
+    "description": "Mario's HP slowly regenerates in battle.",
+    "image": "Happyheart.gif"
+   },
+   {
+    "name": "Happy Heart P",
+    "type": "Partner",
+    "equipCost": "2",
+    "fpUsed": "0",
+    "description": "Partner's HP slowly regenerates in battle.",
+    "image": "Happyheartp.gif"
+   },
+   {
+    "name": "Head Rattle",
+    "type": "Hammer",
+    "equipCost": "1",
+    "fpUsed": "2",
+    "description": "Hammer attack with a chance to confuse enemies.",
+    "image": "Headrattle.gif"
+   },
+   {
+    "name": "Heart Finder",
+    "type": "Other",
+    "equipCost": "3",
+    "fpUsed": "0",
+    "description": "Increase chance that HP hearts will drop after a battle.",
+    "image": "Heartfinder.gif"
+   },
+   {
+    "name": "HP Drain",
+    "type": "Buff",
+    "equipCost": "1",
+    "fpUsed": "0",
+    "description": "Reduce Mario's attack power by 1, but gain 1 HP every time he hits an enemy.",
+    "image": "Hpdrain.gif"
+   },
+   {
+    "name": "HP Drain P",
+    "type": "Partner",
+    "equipCost": "1",
+    "fpUsed": "0",
+    "description": "Reduce Partner's attack power by 1, but gain 1 HP every time they hit an enemy.",
+    "image": "Hpdrainp.gif"
+   },
+   {
+    "name": "HP Plus",
+    "type": "Buff",
+    "equipCost": "3",
+    "fpUsed": "0",
+    "description": "Boosts Mario's Max HP by 5.",
+    "image": "Hpplus.gif"
+   },
+   {
+    "name": "HP Plus P",
+    "type": "Partner",
+    "equipCost": "6",
+    "fpUsed": "0",
+    "description": "Boost Partner's Max HP by 5.",
+    "image": "Hpplusp.gif"
+   },
+   {
+    "name": "Ice Power",
+    "type": "Buff",
+    "equipCost": "1",
+    "fpUsed": "0",
+    "description": "Boosts attack and defense by 1 against fire enemies and allows them to be safely Jumped on.",
+    "image": "Icepower.gif"
+   },
+   {
+    "name": "Ice Smash",
+    "type": "Hammer",
+    "equipCost": "1",
+    "fpUsed": "3",
+    "description": "Hammer attack with a chance to freeze targets.",
+    "image": "Icesmash.gif"
+   },
+   {
+    "name": "Item Hog",
+    "type": "Other",
+    "equipCost": "3",
+    "fpUsed": "0",
+    "description": "Increases chance of finding items after battle, also boosts chance of stealing items.",
+    "image": "Itemhog.gif"
+   },
+   {
+    "name": "Jumpman",
+    "type": "Buff",
+    "equipCost": "2",
+    "fpUsed": "0",
+    "description": "Boosts Jump attacks by +1 but disables Hammer attacks.",
+    "image": "Jumpman.gif"
+   },
+   {
+    "name": "L Emblem",
+    "type": "Other",
+    "equipCost": "0",
+    "fpUsed": "0",
+    "description": "Change Mario's clothes into Luigi's Clothes.",
+    "image": "Lemblem.gif"
+   },
+   {
+    "name": "Last Stand",
+    "type": "Buff",
+    "equipCost": "1",
+    "fpUsed": "0",
+    "description": "When Mario is in Danger (>=5 HP) he recieves half damage.",
+    "image": "Laststand.gif"
+   },
+   {
+    "name": "Last Stand P",
+    "type": "Partner",
+    "equipCost": "1",
+    "fpUsed": "0",
+    "description": "When Partner is in Danger (>=5 HP) they recieve half damage.",
+    "image": "Laststandp.gif"
+   },
+   {
+    "name": "Lucky Day",
+    "type": "Buff",
+    "equipCost": "7",
+    "fpUsed": "0",
+    "description": "Cause enemy attacks to sometimes miss.",
+    "image": "Luckyday.gif"
+   },
+   {
+    "name": "Lucky Start",
+    "type": "Buff",
+    "equipCost": "4",
+    "fpUsed": "0",
+    "description": "Random beneficial status at start of battle.",
+    "image": "Luckystart.gif"
+   },
+   {
+    "name": "Mega Rush",
+    "type": "Buff",
+    "equipCost": "1",
+    "fpUsed": "0",
+    "description": "When Mario is in Peril (1 HP) attack is raised by +5.",
+    "image": "Megarush.gif"
+   },
+   {
+    "name": "Mega Rush P",
+    "type": "Partner",
+    "equipCost": "1",
+    "fpUsed": "0",
+    "description": "When Partner is in Peril (1 HP) attack is raised by +5.",
+    "image": "Megarushp.gif"
+   },
+   {
+    "name": "Money Money",
+    "type": "Other",
+    "equipCost": "5",
+    "fpUsed": "0",
+    "description": "Cause sigificantly more coins to drop after a battle.",
+    "image": "Moneymoney.gif"
+   },
+   {
+    "name": "Multibounce",
+    "type": "Jump",
+    "equipCost": "1",
+    "fpUsed": "2",
+    "description": "Jump attack that bounces across every enemy.",
+    "image": "Multibounce.gif"
+   },
+   {
+    "name": "P-Down, D-Up",
+    "type": "Buff",
+    "equipCost": "2",
+    "fpUsed": "0",
+    "description": "Reduce Mario's Attack power by 1, but raise Defense by 1.",
+    "image": "Pdowndup.gif"
+   },
+   {
+    "name": "P-Down, D-Up P",
+    "type": "Partner",
+    "equipCost": "2",
+    "fpUsed": "0",
+    "description": "Reduce Partner's Attack power by 1, but raise Defense by 1.",
+    "image": "Pdowndupp.gif"
+   },
+   {
+    "name": "P-Up, D-Down",
+    "type": "Buff",
+    "equipCost": "2",
+    "fpUsed": "0",
+    "description": "Raise Mario's Attack power by 1, but lowers defense by 1.",
+    "image": "Pupddown.gif"
+   },
+   {
+    "name": "P-Up, D-Down P",
+    "type": "Partner",
+    "equipCost": "2",
+    "fpUsed": "0",
+    "description": "Raise Partner's Attack power by 1, but lowers defense by 1.",
+    "image": "Pupddownp.gif"
+   },
+   {
+    "name": "Peekaboo",
+    "type": "Buff",
+    "equipCost": "2",
+    "fpUsed": "0",
+    "description": "Reveal enemy lifebars.",
+    "image": "Peekaboo.gif"
+   },
+   {
+    "name": "Piercing Blow",
+    "type": "Hammer",
+    "equipCost": "1",
+    "fpUsed": "2",
+    "description": "Hammer attack that ignores enemy defense.",
+    "image": "Piercingblow.gif"
+   },
+   {
+    "name": "Pity Flower",
+    "type": "Buff",
+    "equipCost": "3",
+    "fpUsed": "0",
+    "description": "Sometimes gain 1 FP when taking damage.",
+    "image": "Pityflower.gif"
+   },
+   {
+    "name": "Power Bounce",
+    "type": "Jump",
+    "equipCost": "3",
+    "fpUsed": "3",
+    "description": "Jump attack that continues to damage one enemy until an action command is missed.",
+    "image": "Powerbounce.gif"
+   },
+   {
+    "name": "Power Jump",
+    "type": "Jump",
+    "equipCost": "1",
+    "fpUsed": "2",
+    "description": "Jump attack with a lot of power behind it.",
+    "image": "Powerjump.gif"
+   },
+   {
+    "name": "Power Plus",
+    "type": "Buff",
+    "equipCost": "6",
+    "fpUsed": "0",
+    "description": "Increase Mario's Attack power by 1.",
+    "image": "Powerplus.gif"
+   },
+   {
+    "name": "Power Plus P",
+    "type": "Partner",
+    "equipCost": "6",
+    "fpUsed": "0",
+    "description": "Increase Partner's Attack power by 1.",
+    "image": "Powerplusp.gif"
+   },
+   {
+    "name": "Power Rush",
+    "type": "Buff",
+    "equipCost": "1",
+    "fpUsed": "0",
+    "description": "When Mario is in Danger (>=5 HP) attack power goes up by 2.",
+    "image": "Powerrush.gif"
+   },
+   {
+    "name": "Power Rush P",
+    "type": "Partner",
+    "equipCost": "1",
+    "fpUsed": "0",
+    "description": "When Partner is in Danger (>=5 HP) attack power does up by 2.",
+    "image": "Powerrushp.gif"
+   },
+   {
+    "name": "Power Smash",
+    "type": "Hammer",
+    "equipCost": "1",
+    "fpUsed": "2",
+    "description": "Hammer attack with a lot of power behind it.",
+    "image": "Powersmash.gif"
+   },
+   {
+    "name": "Pretty Lucky",
+    "type": "Buff",
+    "equipCost": "2",
+    "fpUsed": "0",
+    "description": "Enemies will occasionally miss Mario.",
+    "image": "Prettylucky.gif"
+   },
+   {
+    "name": "Pretty Lucky P",
+    "type": "Partner",
+    "equipCost": "2",
+    "fpUsed": "0",
+    "description": "Enemies will occasionally miss your Partner.",
+    "image": "Prettyluckyp.gif"
+   },
+   {
+    "name": "Quake Hammer",
+    "type": "Hammer",
+    "equipCost": "2",
+    "fpUsed": "3",
+    "description": "Hammer attack that hits all gounded and ceiling based enemies.",
+    "image": "Quakehammer.gif"
+   },
+   {
+    "name": "Quick Change",
+    "type": "Buff",
+    "equipCost": "7",
+    "fpUsed": "0",
+    "description": "Allows Mario to change parters without using a turn.",
+    "image": "Quickchange.gif"
+   },
+   {
+    "name": "Refund",
+    "type": "Buff",
+    "equipCost": "1",
+    "fpUsed": "0",
+    "description": "Refunds some coins when an item is used in battle.",
+    "image": "Refund.gif"
+   },
+   {
+    "name": "Return Postage",
+    "type": "Buff",
+    "equipCost": "7",
+    "fpUsed": "0",
+    "description": "Causes enemy melee attacks on Mario to return 1/2 damage to the attacker.",
+    "image": "Returnpostage.gif"
+   },
+   {
+    "name": "Shrink Stomp",
+    "type": "Jump",
+    "equipCost": "1",
+    "fpUsed": "2",
+    "description": "Jump attack with a chance to shrink enemies, reducing their attack power.",
+    "image": "Shrinkstomp.gif"
+   },
+   {
+    "name": "Simplifier",
+    "type": "Buff",
+    "equipCost": "1",
+    "fpUsed": "0",
+    "description": "Makes action commands easier, earns less Star Power",
+    "image": "Simplifier.gif"
+   },
+   {
+    "name": "Sleepy Stomp",
+    "type": "Jump",
+    "equipCost": "1",
+    "fpUsed": "2",
+    "description": "Jump attack with a chance to put enemies to sleep.",
+    "image": "Sleepystomp.gif"
+   },
+   {
+    "name": "Slow Go",
+    "type": "Other",
+    "equipCost": "0",
+    "fpUsed": "0",
+    "description": "Prevents Mario from running outside of combat.",
+    "image": "Slowgo.gif"
+   },
+   {
+    "name": "Soft Stomp",
+    "type": "Jump",
+    "equipCost": "1",
+    "fpUsed": "2",
+    "description": "Jump attack with a chance to soften enemies, reducing their defense.",
+    "image": "Softstomp.gif"
+   },
+   {
+    "name": "Spike Shield",
+    "type": "Buff",
+    "equipCost": "3",
+    "fpUsed": "0",
+    "description": "Allows Mario to jump on Spiked enemies.",
+    "image": "Spikeshield.gif"
+   },
+   {
+    "name": "Super Appeal",
+    "type": "Buff",
+    "equipCost": "1",
+    "fpUsed": "0",
+    "description": "Gain more Star Power when Mario Appeals.",
+    "image": "Superappeal.gif"
+   },
+   {
+    "name": "Super Appeal P",
+    "type": "Partner",
+    "equipCost": "1",
+    "fpUsed": "0",
+    "description": "Gain more Star Power when Partner Appeals.",
+    "image": "Superappealp.gif"
+   },
+   {
+    "name": "Timing Tutor",
+    "type": "Buff",
+    "equipCost": "1",
+    "fpUsed": "0",
+    "description": "Show the timing for Stylish Commands.",
+    "image": "Timingtutor.gif"
+   },
+   {
+    "name": "Tornado Jump",
+    "type": "Jump",
+    "equipCost": "2",
+    "fpUsed": "3",
+    "description": "Jump attack that hits all midair enemies.",
+    "image": "Tornadojump.gif"
+   },
+   {
+    "name": "Unsimplifier",
+    "type": "Buff",
+    "equipCost": "1",
+    "fpUsed": "0",
+    "description": "Makes action commands more difficult, earns more Star Power.",
+    "image": "Unsimplifier.gif"
+   },
+   {
+    "name": "W Emblem",
+    "type": "Other",
+    "equipCost": "0",
+    "fpUsed": "0",
+    "description": "Change Mario's clothes into Wario's clothes.",
+    "image": "Wemblem.gif"
+   },
+   {
+    "name": "Zap Tap",
+    "type": "Buff",
+    "equipCost": "3",
+    "fpUsed": "0",
+    "description": "Electrifies Mario causing enemies who come into contact to take 1 damage from electricity.",
+    "image": "Zaptap.gif"
+   }
+]

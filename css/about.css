@@ -1,0 +1,44 @@
+#aboutTab {
+  outline: 5px solid black;
+  outline-offset: -5px;
+}
+#aboutBody {
+  font-family: "pmFont";
+  display: inline-block;
+  background-color: burlywood;
+  background-image: url('/img/aboutBG.png');
+  background-repeat: repeat;
+  width: 100%;
+  height: 600px;
+}
+.myHeader{
+  font-size: 14px;
+}
+p{
+	font-size: 10px;
+}
+#infoDiv{
+	position: absolute;
+	top:150px;
+	width: 800px;
+	background-image: url('/img/paperBG.jpg');
+	background-size: cover;
+	border: 1px solid black;
+}
+#infoDivText{
+	position: relative;
+	width: 795px;
+	left: 2px;
+	top: 1px;
+}
+#frankley{
+	position: relative;
+	width: 100px;
+	height:auto;
+	left: 695px;
+}
+#signature{
+	position: relative;
+	left: 325px;
+	bottom: 5px;
+}

@@ -1,0 +1,130 @@
+@charset "utf-8";
+/*Cameron Raynie, CPSC24700, Project 1, Summer LT1*/
+#enemyBody {
+  display: inline-block;
+  background-color: burlywood;
+  background-image: url('/img/aboutBG.png');
+  background-repeat: repeat;
+  width: 100%;
+  height: 600px;
+}
+#enemyTab {
+  outline: 5px solid black;
+  outline-offset: -5px;
+}
+
+ul {
+  padding: 10px 15px;
+  height: 450px;
+  width: 30%;
+  overflow: hidden;
+  overflow-y: scroll;
+  display: inline-block;
+  list-style-type: none;
+  background-image: url("/img/listBack.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+/*Enemy Stats*/
+#enemyLeftDiv {
+  position: absolute;
+  background-color: chartreuse;
+  background-image: url("/img/paperBG.jpg");
+  background-size: cover;
+  width: 600px;
+  height: 565px;
+  top: 150px;
+  border: 1px solid black;
+}
+#enemyTitle {
+  font-size: 22px;
+}
+#enemyHP {
+  font-size: 18px;
+}
+#enemyDef {
+  font-size: 18px;
+}
+#enemyPic {
+  position: absolute;
+  left: 375px;
+}
+#enemyInfoDiv {
+  position: absolute;
+  left: 1px;
+}
+#enemyTattle {
+  font-size: 14px;
+  width: 580px;
+}
+#enemyJournal {
+  font-size: 14px;
+  width: 580px;
+}
+.readableFont {
+  font-size: 10px;
+}
+/*Enemy List and Filter*/
+#enemyRightDiv {
+  width: 600px;
+}
+#enemyListDiv {
+  width: 1000px;
+  left: 600px;
+  top: 150px;
+  position: absolute;
+}
+.enemySelector {
+  font-family: "pmFont";
+  font-size: 12px;
+  width: 275px;
+  height: 193px;
+  padding: 5px 10px;
+}
+.enemySelector:hover {
+  background-color: goldenrod;
+  border: 2px solid black;
+}
+.enemySelector:active {
+  position: relative;
+  top: 1px;
+}
+#enemyLeftDiv {
+  font-family: "pmFont";
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#fullEnemyList {
+  position: absolute;
+  top: -33px;
+  width: 290px;
+  height: 547px;
+  left: 25px;
+}
+/*Filter Table*/
+#sortButtonDiv {
+  position: absolute;
+  top: 149px;
+  left: 950px;
+  text-align: center;
+  font-family: "pmFont";
+  height: 280px;
+  background-image: url("/img/paperAsset4.png");
+  background-size: 101% 99%;
+  background-repeat: no-repeat;
+}
+#enemyFilterTable {
+}
+.filterButton {
+  font-family: "pmFont";
+  font-size: 10px;
+  height: 50px;
+  width: 135px;
+}
+.filterButton:hover {
+  background-color: goldenrod;
+  border: 2px solid black;
+}

@@ -1,0 +1,144 @@
+<head>
+	<link rel="stylesheet" href="css/HomePage.css">
+	<script src="script/marioBuild.js"></script>
+	<script src="data/bigListOfBadges.js"></script>
+</head>
+
+<body onload="loadBadgeList();setNormalHammer();setNormalJump()">
+	<audio autoplay loop>
+		<source src="/audio/marioMusic.mp3" type="audio/mpeg">
+	</audio>
+	<div id="MarioBody">
+		<div id="topBody">
+			<div id="statsDiv">
+				<img id="marioImg" src="/img/paperMarioMan.png">
+				<table>
+					<tr>
+						<th>Mario!<br><br></th>
+					</tr>
+					<tr>
+						<th>Level:</th>
+						<td><input id="marioLvl" class="lookEnabled" type="text" value="1" disabled></td>
+						<td><button id="levelUpButton" onclick=levelUpScreen()>Level ↑</button></td>
+						<td><button id="resetButton" onclick="resetBuild()">Restart</button></td>
+					</tr>
+					<tr>
+						<th>Hitpoints:</th>
+						<td><input id="marioHP" class="lookEnabled" type="text" value="10" disabled></td>
+						<td><button id="levelHPButton" class="levelButtons" onclick=levelHP()>▲</button></td>
+					</tr>
+					<tr>
+						<th>Flower Points:</th>
+						<td><input id="marioFP" class="lookEnabled" type="text" value="5" disabled></td>
+						<td><button id="levelFPButton" class="levelButtons" onclick=levelFP()>▲</button></td>
+					</tr>
+					<tr>
+						<th>Badge Points:</th>
+						<td><input id="marioBP" class="lookEnabled" type="text" value="3" disabled></td>
+						<td><button id="levelBPButton" class="levelButtons" onclick=levelBP()>▲</button>
+					</tr>
+					<tr>
+						<th>Available BP: </th>
+						<td>
+							<div id="availableBPDiv"><input type="text" id="availBP" disabled value="3"></div>
+						</td>
+					</tr>
+					<tr>
+						<th>Equipped Boots:</th>
+						<td><button id="normalJumpButton" class="hamButton" onclick=setNormalJump()><img
+									src="/img/boots.png"><br>Normal</button></td>
+						<td><button id="superJumpButton" class="hamButton" onclick=setSuperJump()><img
+									src="/img/superBoots.png"><br>Super</button></td>
+						<td><button id="ultraJumpButton" class="hamButton" onclick=setUltraJump()><img
+									src="/img/ultraBoots.png"><br>Ultra</button></td>
+					</tr>
+					<tr>
+						<th>Equipped Hammer:</th>
+						<td><button id="normalHammerButton" class="hamButton" onclick=setNormalHammer()><img
+									src="/img/hammer.png"><br>Normal</button></td>
+						<td><button id="superHammerButton" class="hamButton" onclick=setSuperHammer()><img
+									src="/img/superHammer.png"><br>Super</button></td>
+						<td><button id="ultraHammerButton" class="hamButton" onclick=setUltraHammer()><img
+									src="/img/ultraHammer.png"><br>Ultra</button></td>
+					</tr>
+				</table>
+			</div>
+			<div id="BadgeFiltersPlusLists">
+				<div id="badgeListDiv"></div>
+				<div id="equippedBadgesDiv">
+					<ul id="equippedBadgeList">
+						<li class='pmFont textCenter textSmoll'>Click Badges in the Library to equip them
+							here.<br><br>Click Badges equipped here to remove them.<br><br>Use the filters below to sort
+							Badges by type.<br><br>Hover over a Badge for more information about it.<br><br>Badge Points
+							are required to equip most badges.</li>
+					</ul>
+				</div>
+				<table id="badgeFilterTable">
+					<tr>
+						<td></td>
+						<th class="textCenter">Badge Filters</th>
+						<td></td>
+					</tr>
+					<tr>
+						<td><button id="filterButton" type="button" onclick="showAllBadges()">Show All Badges</button>
+						</td>
+						<td><button id="filterButton" type="button" onclick="showHammerBadges()">Show Hammer
+								Badges</button>
+						</td>
+						<td><button id="filterButton" type="button" onclick="showJumpBadges()">Show Jump Badges</button>
+						</td>
+					</tr>
+					<tr>
+						<td><button id="filterButton" type="button" onclick="showBoostBadges()">Show Boost
+								Badges</button>
+						</td>
+						<td><button id="filterButton" type="button" onclick="showPartnerBadges()">Show
+								PartnerBadges</button></td>
+						<td><button id="filterButton" type="button" onclick="showOtherBadges()">Show Other
+								Badges</button>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><button id="filterButton" type="button" onclick="removeAllEquipped()">Remove Equipped
+								Badges</button></td>
+						<td></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div id="bottomBody">
+
+			<div id="saveLoadDiv">
+				<button type="button" onclick="saveBadges()">Save Character</button>
+				<button type="button" onclick="loadSavedBadges()">Load Character</button><br>
+				<input type="text" class="wideInput" id="saveLoadBox">
+			</div>
+			<div id="effectsDiv">
+				<table id="marioAtkDefTable">
+					<tr>
+						<th></th>
+						<th class="textCenter">Active</th>
+						<th class="textCenter">Passive</th>
+					</tr>
+					<tr>
+						<th class="textRight">Hammer Damage:</th>
+						<td><input class="lookEnabled" type="text" id="marioActiveHamDam" disabled></td>
+						<td><input class="lookEnabled" type="text" id="marioPassiveHamDam" disabled></td>
+					</tr>
+					<tr>
+						<th class="textRight">Jump Damage:</th>
+						<td><input class="lookEnabled" type="text" id="marioActiveJumpDam" disabled></td>
+						<td><input class="lookEnabled" type="text" id="marioPassiveJumpDam" disabled></td>
+					</tr>
+					<tr>
+						<th class="textRight">Defense: </th>
+						<td><input class="lookEnabled" type="text" id="marioActiveDefense" disabled></td>
+						<td><input class="lookEnabled" type="text" id="marioPassiveDefense" disabled></td>
+					</tr>
+				</table>
+				<span id="marioOther"></span>
+			</div>
+		</div>
+	</div>
+</body>

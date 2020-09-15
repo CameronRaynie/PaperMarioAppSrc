@@ -1,0 +1,129 @@
+@charset "utf-8";
+/*Cameron Raynie, CPSC24700, Project 1, Summer LT1*/
+
+#partnerTab{
+	outline: 5px solid black;
+	outline-offset: -5px;
+  }
+.partnerButton{
+ width: 150px;
+ height: 150px;
+}
+.tablePic{
+	object-fit: cover;
+	width: auto;
+	height: 55%;
+}
+.partPic{
+	background-color: seashell;
+	background-size: cover;
+	position: absolute;
+	left: 50px;
+	top: 0px;
+}
+.bigFont{
+	font-size: 22px;
+}
+.medFont{
+	font-size: 18px;
+}
+.superHide{
+	visibility: hidden;
+}
+.ultraHide{
+	visibility: hidden;
+}
+.shineSpriteImg{
+	width: 50px;
+	height: auto;
+}
+.rankButton{
+	width:100px;
+	height:75px;
+}
+.readableFont {
+	font-size: 10px;
+  }
+/**/
+#partnerBody{
+	display: inline-block;
+	background-color: burlywood;
+	background-image: url('/img/aboutBG.png');
+	background-repeat: repeat;
+	width: 100%;
+	height: 600px;
+}
+/**/
+/*Shuffle Divs*/
+#partnerInfo{
+	position: absolute;
+	background-color: springgreen;
+	background-image: url('/img/paperBG.jpg');
+	background-size: cover;
+	top:150px;
+	width: 500px;
+	height: 571px;
+	font-family: "pmFont";
+	border: 1px solid black;
+}
+#partnerDesc{
+	width: 300px;
+	font-size: 14px;
+}
+#partnerRank{
+	position: absolute;
+	top:472px;
+	left: 75px;
+}
+#partnerPic{
+	position: relative;
+	left: 250px;
+}
+/**/
+#abilitySpan{
+	font-family: "pmFont";
+	position: relative;
+	left: 260px;
+}
+#abilityDiv{
+	position: absolute;
+	left:520px;
+	top: 150px;
+	width: 620px;
+}
+#abilityTable{
+	background-color: seashell;
+	background-image: url('/img/tattleJustPaper.png');
+	font-family: "pmFont";
+	font-size: 10px;
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+.abTable{
+	border-collapse: collapse;
+	border: 1px solid black;
+	text-align: center;
+	width: 100px;
+}
+.abTableDes{
+	width: 300px;
+	border: 1px solid black;
+}
+/**/
+#partnerDiv{
+	position: absolute;
+	width: 620px;
+	font-family: "pmFont";
+	text-align: center;
+	left: 520px;
+	top: 385px;
+}
+/**/
+#partInfoDiv{
+	position: absolute;
+	left: 1px;
+}
+#partnerTable{
+	background-image: url('/img/tattleJustPaper.png');
+	border: 1px solid black;
+}

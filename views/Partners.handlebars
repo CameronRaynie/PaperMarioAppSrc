@@ -1,0 +1,73 @@
+<head>
+	<link rel="stylesheet" href="css/Partners.css">
+	<script src="script/Partners.js"></script>
+	<script src="data/partnerStats.js"></script>
+</head>
+
+<body onload="initPartner()">
+	<audio autoplay loop>
+		<source src="/audio/partnerMusic.mp3" type="audio/mpeg">
+	</audio>
+	<div id="partnerBody">
+		<div id="partnerInfo">
+			<div id="partnerPic"></div>
+			<div id="partInfoDiv">
+				<p id="partnerName" class='bigFont'></p>
+				<p id="partnerHP" class='medFont'></p>
+				<p id="partnerDef" class='medFont'></p>
+				<p id="partnerDesc"></p>
+			</div>
+			<p id="partnerRank">
+				<button id="baseRank" class="rankButton" onclick="setBaseRank()"><img class="shineSpriteImg"
+						src="/img/superStar.png"><br>BASE RANK</button>
+				<button id="superRank" class="rankButton" onclick="setSuperRank()"><img class="shineSpriteImg"
+						src="/img/shineSprite.png"><br>SUPER RANK</button>
+				<button id="ultraRank" class="rankButton" onclick="setUltraRank()"><img class="shineSpriteImg"
+						src="/img/ultraStone.png"><br>ULTRA RANK</button>
+			</p>
+
+		</div>
+		<div id="abilityDiv">
+			<span>
+				<span id="abilitySpan">Abilities</span>
+				<table id="abilityTable">
+					<tr>
+						<th>Attack</th>
+						<th>Cost</th>
+						<th>Damage</th>
+						<th>Description</th>
+					</tr>
+					<tr id="ability1">
+						<th>Ability 1</th>
+						<th>Cost 1</th>
+						<th>Damage 1</th>
+						<th>Desc 1</th>
+					</tr>
+					<tr id="ability2">
+						<th>Ability 2</th>
+						<th>Cost 2</th>
+						<th>Damage 2</th>
+						<th>Desc 2</th>
+					</tr>
+					<tr id="ability3" class='superHide'>
+						<th>Ability 3</th>
+						<th>Cost 3</th>
+						<th>Damage 3</th>
+						<th>Desc 3</th>
+					</tr>
+					<tr id="ability4" class='ultraHide'>
+						<th>Ability 4</th>
+						<th>Cost 4</th>
+						<th>Damage 4</th>
+						<th>Desc 4</th>
+					</tr>
+				</table>
+			</span>
+		</div>
+		<div id="partnerDiv">
+			Partners
+			<span id="partnerSpan">
+			</span>
+		</div>
+	</div>
+</body>

@@ -1,0 +1,79 @@
+/*Adding Custom Font*/
+@font-face {
+  font-family: "pmFont";
+  src: url("/font/heygorgeous.ttf");
+}
+.pmFont{
+  font-family: "pmFont";
+}
+/*background image scaling*/
+html {
+  background-color: beige;
+  background-image: url("/img/paperyBackground.png");
+  background-size: 100vw 100vh;
+  /*background-size: auto;*/
+  background-repeat: no-repeat;
+}
+/* Removing clicked links effect*/
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+/*Moving Title Card around*/
+#titleCard{
+  width: 140px;
+  height: auto;
+}
+/* Style tabs */
+.tab {
+  width: Auto;
+  overflow: hidden;
+  border: 1px solid #2b3d62;
+  background-color: #BB9B48;
+}
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  font-family: pmFont;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: "pointer";
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: goldenrod;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+#marioTab{
+  background-color:  	rgb(250, 17, 17);
+}
+#marioTab:hover {
+  background-color: goldenrod;
+}
+#partnerTab{
+  background-color: rgb(255, 151, 151);
+}
+#partnerTab:hover {
+  background-color: goldenrod;
+}
+#enemyTab{
+  background-color:  	rgb(50, 185, 34);
+}
+#enemyTab:hover {
+  background-color: goldenrod;
+}

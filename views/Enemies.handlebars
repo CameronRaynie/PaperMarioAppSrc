@@ -1,0 +1,58 @@
+<head>
+	<link rel="stylesheet" href="css/Enemies.css">
+	<script src="script/enemyScript.js"></script>
+	<script src="data/enemyStats.js"></script>
+</head>
+
+<body onload="loadEnemyList()">
+	<audio autoplay loop>
+		<source src="/audio/enemyMusic.mp3" type="audio/mpeg">
+	</audio>
+	<div id="enemyBody">
+		<div id="enemyLeftDiv">
+			<div id="enemyPic"></div>
+			<div id="enemyInfoDiv">
+				<p id="enemyTitle"></p>
+				<p id="enemyHP"></p>
+				<p id="enemyDef"></p>
+				<p id="enemyJournal"></p>
+				<p id="enemyTattle"></p>
+			</div>
+		</div>
+		<div id="enemyRightDiv">
+			<p id="enemyListDiv"></p>
+			<div id="sortButtonDiv">
+				Sort Enemies By
+				<table id="enemyFilterTable">
+					<tr></tr>
+					<tr></tr>
+					<tr></tr>
+					<tr>
+						<td><button class='filterButton' type="button"
+								onclick="sortEnemyNumber()">Numeric<br>Ascending</button></td>
+						<td><button class='filterButton' type="button"
+								onclick="sortEnemyNumberReverse()">Numeric<br>Decending</button></td>
+					</tr>
+					<tr>
+						<td><button class='filterButton' type="button"
+								onclick="sortEnemyHP()">Hitpoints<br>Ascending</button></td>
+						<td><button class='filterButton' type="button"
+								onclick="sortEnemyHPreverse()">Hitpoints<br>Decending</button></td>
+					</tr>
+					<tr>
+						<td><button class='filterButton' type="button"
+								onclick="sortEnemyDef()">Defense<br>Ascending</button></td>
+						<td><button class='filterButton' type="button"
+								onclick="sortEnemyDefreverse()">Defense<br>Decending</button></td>
+					</tr>
+					<tr>
+						<td><button class='filterButton' type="button" onclick="sortEnemySpikes()">Spiked
+								Enemies</button></td>
+						<td><button class='filterButton' type="button" onclick="sortEnemyFlying()">Flying
+								Enemies</button></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
